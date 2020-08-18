@@ -1,0 +1,9 @@
+export declare const LeagueTable: import("styled-components").StyledComponent<"div", any, {}, never>;
+export declare const Title: import("styled-components").StyledComponent<"div", any, {}, never>;
+export declare const THead: import("styled-components").StyledComponent<"thead", any, {}, never>;
+export declare const CenterHeader: import("styled-components").StyledComponent<"th", any, {}, never>;
+export declare const RightHeader: import("styled-components").StyledComponent<"th", any, {}, never>;
+export declare const TeamsHeader: import("styled-components").StyledComponent<"th", any, {}, never>;
+export declare const CenterCell: import("styled-components").StyledComponent<"td", any, {}, never>;
+export declare const RightCell: import("styled-components").StyledComponent<"td", any, {}, never>;
+export declare const TeamCell: import("styled-components").StyledComponent<"td", any, {}, never>;
