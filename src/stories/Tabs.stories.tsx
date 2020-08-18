@@ -9,6 +9,8 @@ export default {
   ],
 }
 
+const date = {}
+
 export const Default = () => {
   const [activeTab, setActiveTab] = useState<number>(0)
 
