@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 
 const Menu = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -37,6 +37,6 @@ const Menu = (props: React.SVGProps<SVGSVGElement>) => (
       <path fill="rgb(255,255,255)" fill-rule="evenodd" d="M0 0v1h2.132V0H0z" />
     </g>
   </svg>
-)
+);
 
-export default Menu
+export default Menu;

@@ -1,1 +1,1 @@
-export { IdCalls } from './IdCall'
+export { IdCalls } from './IdCall';

@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 
 const AddCircle = (props: React.SVGProps<SVGSVGElement>) => (
   <svg width="16" height="16" viewBox="0 0 16 16" {...props}>
@@ -34,6 +34,6 @@ const AddCircle = (props: React.SVGProps<SVGSVGElement>) => (
       </g>
     </g>
   </svg>
-)
+);
 
-export default AddCircle
+export default AddCircle;

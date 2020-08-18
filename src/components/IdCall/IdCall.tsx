@@ -1,16 +1,12 @@
-import React, { FC } from 'react'
+import React, { FC } from 'react';
 
-import { IdCallWrapper, TextStyle, FlexWrap, FlexInner } from './styled'
-import Menu from '../../svgs/Menu'
-import AddCircle from '../../svgs/AddCircle'
-
-interface TabDictionary {
-  [key: number]: string
-}
+import { IdCallWrapper, TextStyle, FlexWrap, FlexInner } from './styled';
+import Menu from '../../svgs/Menu';
+import AddCircle from '../../svgs/AddCircle';
 
 type IdCallsProps = {
-  name: string
-}
+  name: string;
+};
 
 export const IdCalls: FC<IdCallsProps> = ({ name }) => {
   return (
@@ -23,5 +19,5 @@ export const IdCalls: FC<IdCallsProps> = ({ name }) => {
         </FlexInner>
       </FlexWrap>
     </IdCallWrapper>
-  )
-}
+  );
+};

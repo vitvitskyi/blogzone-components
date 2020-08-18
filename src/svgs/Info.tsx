@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 
 const Info = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -34,6 +34,6 @@ const Info = (props: React.SVGProps<SVGSVGElement>) => (
       />
     </g>
   </svg>
-)
+);
 
-export default Info
+export default Info;

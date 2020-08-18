@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 
 const Arrow = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -62,6 +62,6 @@ const Arrow = (props: React.SVGProps<SVGSVGElement>) => (
       </g>
     </g>
   </svg>
-)
+);
 
-export default Arrow
+export default Arrow;

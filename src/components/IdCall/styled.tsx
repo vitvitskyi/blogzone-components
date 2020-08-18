@@ -1,8 +1,8 @@
-import styled from '@emotion/styled'
-import { css } from '@emotion/core'
+import styled from '@emotion/styled';
+import { css } from '@emotion/core';
 
 export const TabsWrapper = styled.div<{
-  isBottomLine: boolean
+  isBottomLine: boolean;
 }>`
   display: flex;
   font-size: 0.68rem;
@@ -14,11 +14,11 @@ export const TabsWrapper = styled.div<{
     css`
       border-bottom: 1px solid #ff8a00;
     `}
-`
+`;
 
 type TabProps = {
-  isActive?: boolean
-}
+  isActive?: boolean;
+};
 
 export const TabItem = styled.span<TabProps>`
   position: relative;
@@ -57,30 +57,30 @@ export const TabItem = styled.span<TabProps>`
         border-width: 5px 7px;
       }
     `}
-`
+`;
 
 export const IdCallWrapper = styled.div<{}>`
   width: 320px;
   height: 139px;
   border-radius: 6px 0 0 6px;
   background-color: #0086b4;
-`
+`;
 export const TextStyle = styled.p<{}>`
   font-size: 16px;
   text-transform: uppercase;
   color: #ffffff;
   font-family: sans-serif;
-`
+`;
 
 export const Flex = styled.div<{}>`
   display: flex;
   justify-content: space-between;
   align-items: center;
-`
+`;
 export const FlexWrap = styled(Flex)<{}>`
   margin: 0 auto;
   max-width: 272px;
-`
+`;
 export const FlexInner = styled(Flex)<{}>`
   min-width: 53px;
-`
+`;

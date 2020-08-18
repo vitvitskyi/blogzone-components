@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "norwester";
+    src:url("/fonts/norwester.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "gilroybold";
+    src:url("/fonts/gilroy-bold.woff");
+        url("/fonts/gilroy-bold.woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "gilroyregular";
+    src:url("/fonts/gilroy-regular.woff");
+        url("/fonts/gilroy-regular.woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "gilroysemibold";
+    src:url("/fonts/gilroy-semibold.woff");
+        url("/fonts/gilroy-semibold.woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "vanguard_cfextra_bold";
+    src:url("/fonts/vanguardcf-extrabold.woff");
+        url("/fonts/vanguardcf-extrabold.woff2");
+    font-weight: normal;
+    font-style: normal;
+}

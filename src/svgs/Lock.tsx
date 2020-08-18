@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 
 const Lock = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -85,6 +85,6 @@ const Lock = (props: React.SVGProps<SVGSVGElement>) => (
       </g>
     </g>
   </svg>
-)
+);
 
-export default Lock
+export default Lock;
