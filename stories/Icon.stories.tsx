@@ -10,6 +10,8 @@ const iconList = [
   'Info',
   'Lock',
   'Menu',
+  'BoxMenu',
+  'Settings'
 ] as const;
 
 export default {
