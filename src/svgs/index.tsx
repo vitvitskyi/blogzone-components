@@ -6,3 +6,4 @@ export { default as Lock } from './Lock';
 export { default as Menu } from './Menu';
 export { default as BoxMenu } from './BoxMenu';
 export { default as Settings } from './Settings';
+export { default as Close } from './Close';
