@@ -7,6 +7,7 @@ const Menu = (props: React.SVGProps<SVGSVGElement>) => (
     width="16"
     height="14.868"
     viewBox="0 0 16 14.868"
+    stroke="currentColor"
   >
     <g>
       <path

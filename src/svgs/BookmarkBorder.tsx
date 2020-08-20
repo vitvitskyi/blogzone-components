@@ -7,6 +7,7 @@ const BookmarkBorder = (props: React.SVGProps<SVGSVGElement>) => (
     width="14.72"
     height="15.026"
     viewBox="0 0 14.72 15.026"
+    stroke="currentColor"
   >
     <path
       fill="#2D393D"

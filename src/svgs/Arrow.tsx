@@ -8,6 +8,7 @@ const Arrow = (props: React.SVGProps<SVGSVGElement>) => (
     height="15.654"
     fill="none"
     viewBox="0 0 14.32 15.654"
+    // stroke="currentColor"
   >
     <defs>
       <path
