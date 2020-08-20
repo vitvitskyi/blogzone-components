@@ -1,7 +1,13 @@
 import * as React from 'react';
 
 const AddCircle = (props: React.SVGProps<SVGSVGElement>) => (
-  <svg width="16" height="16" viewBox="0 0 16 16" {...props}>
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    // stroke="currentColor"
+    {...props}
+  >
     <defs>
       <path id="path-2" fill-rule="evenodd" d="M0 16h16V0H0v16z" />
       <mask

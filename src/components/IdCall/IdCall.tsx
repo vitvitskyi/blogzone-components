@@ -1,23 +1,13 @@
 import React, { FC } from 'react';
 
-import { IdCallWrapper, TextStyle, FlexWrap, FlexInner } from './styled';
-import Menu from '../../svgs/Menu';
-import AddCircle from '../../svgs/AddCircle';
+import { IdCallUser } from './IdCallUser';
 
-type IdCallsProps = {
-  name: string;
-};
-
-export const IdCalls: FC<IdCallsProps> = ({ name }) => {
+export const IdCall: FC<{}> = () => {
   return (
-    <IdCallWrapper>
-      <FlexWrap>
-        <TextStyle>{name}</TextStyle>
-        <FlexInner>
-          <Menu />
-          <AddCircle />
-        </FlexInner>
-      </FlexWrap>
-    </IdCallWrapper>
+    <div className="mb-2">
+      <div className="flex justify-center mt-3">
+        <IdCallUser name="0000 Matthes" />
+      </div>
+    </div>
   );
 };
