@@ -6,6 +6,7 @@ import * as icons from '../src/svgs'
 const iconList = [
   'AddCircle',
   'Arrow',
+  'ArrowForward',
   'Asset10',
   'Asset12',
   'Asset15',

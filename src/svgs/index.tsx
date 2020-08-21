@@ -1,5 +1,6 @@
 export { default as AddCircle } from './AddCircle'
 export { default as Arrow } from './Arrow'
+export { default as ArrowForward } from './ArrowForward'
 export { default as Asset10 } from './Asset10'
 export { default as Asset12 } from './Asset12'
 export { default as Asset15 } from './Asset15'
