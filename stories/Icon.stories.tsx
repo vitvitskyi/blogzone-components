@@ -1,19 +1,35 @@
-import React from 'react';
+import React from 'react'
 
-import { Icon } from '../src/components/Icon';
-import * as icons from '../src/svgs';
+import { Icon } from '../src/components/Icon'
+import * as icons from '../src/svgs'
 
 const iconList = [
   'AddCircle',
   'Arrow',
+  'Asset10',
+  'Asset12',
+  'Asset15',
+  'AttachFile',
   'BookmarkBorder',
+  'BoxMenu',
+  'Close',
   'Info',
   'Lock',
+  'LockTwo',
   'Menu',
-  'BoxMenu',
+  'MessegeArchiving',
+  'Mood',
+  'MoodBad',
+  'NoPassword',
+  'NotAnonymous',
+  'NotModerated',
+  'Open',
+  'Persistent',
+  'Phone',
+  'PlayCircleOutline',
   'Settings',
-  'Close',
-] as const;
+  'ThumbUp',
+] as const
 
 export default {
   title: 'Icon',
@@ -24,7 +40,7 @@ export default {
       </div>
     ),
   ],
-};
+}
 
 const renderIcon = (icon: keyof typeof icons) => (
   <div style={{ display: 'flex', paddingBottom: 10 }}>
@@ -35,7 +51,7 @@ const renderIcon = (icon: keyof typeof icons) => (
       {icon}
     </span>
   </div>
-);
+)
 
 export const Default = () =>
-  iconList.map(icon => <div key={icon}>{renderIcon(icon)}</div>);
+  iconList.map(icon => <div key={icon}>{renderIcon(icon)}</div>)
