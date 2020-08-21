@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 
 const NotModerated = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -21,6 +21,6 @@ const NotModerated = (props: React.SVGProps<SVGSVGElement>) => (
       />
     </g>
   </svg>
-)
+);
 
-export default NotModerated
+export default NotModerated;

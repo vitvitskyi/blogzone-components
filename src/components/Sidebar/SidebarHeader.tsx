@@ -1,4 +1,6 @@
 import React, { FC } from 'react';
+
+//svgs
 import Menu from '../../svgs/Menu';
 import AddCircle from '../../svgs/AddCircle';
 

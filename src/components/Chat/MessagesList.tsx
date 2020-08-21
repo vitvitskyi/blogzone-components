@@ -11,7 +11,9 @@ type MessagesListProps = {
 export const MessagesList: FC<MessagesListProps> = ({ day, data }) => {
   return (
     <>
-      <span className="uppercase text-gray-600 tracking-wide">{day}</span>
+      <span className="uppercase text-gray-600 tracking-wide text-xs">
+        {day}
+      </span>
       <div className="mt-8">
         {data.map(
           (

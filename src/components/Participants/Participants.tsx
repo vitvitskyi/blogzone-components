@@ -1,8 +1,9 @@
 import React, { FC } from 'react';
 
 //custom components
-import { ParticipantInvite } from './ParticipantsInvite';
+import { ParticipantInvite } from './ParticipantInvite';
 import { ParticipantList } from './ParticipantList';
+import { ParticipantInfo } from './ParticipantInfo';
 
 export const Participants: FC<{}> = () => {
   const data: Array<Object> = [
@@ -14,9 +15,10 @@ export const Participants: FC<{}> = () => {
     { name: 'user6', status: 'moderator' },
   ];
   return (
-    <div className="m-auto w-1/5">
+    <div className="m-auto">
       <ParticipantInvite />
       <ParticipantList data={data} />
+      <ParticipantInfo />
     </div>
   );
 };

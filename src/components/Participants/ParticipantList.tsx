@@ -8,7 +8,7 @@ type ParticipantListProps = {
 };
 export const ParticipantList: FC<ParticipantListProps> = ({ data }) => {
   return (
-    <div className="p-5 border border-gray-300 flex flex-col justify-center">
+    <div className="p-5 border border-gray-300 flex flex-col justify-center bg-white">
       {data.map(
         (
           item: { name: string; status: string },

@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 
 const NotAnonymous = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -55,6 +55,6 @@ const NotAnonymous = (props: React.SVGProps<SVGSVGElement>) => (
       </g>
     </g>
   </svg>
-)
+);
 
-export default NotAnonymous
+export default NotAnonymous;

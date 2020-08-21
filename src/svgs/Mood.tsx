@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 
 const Mood = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -31,6 +31,6 @@ const Mood = (props: React.SVGProps<SVGSVGElement>) => (
       />
     </g>
   </svg>
-)
+);
 
-export default Mood
+export default Mood;

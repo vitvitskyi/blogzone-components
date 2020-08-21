@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 
 const NoPassword = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -21,6 +21,6 @@ const NoPassword = (props: React.SVGProps<SVGSVGElement>) => (
       />
     </g>
   </svg>
-)
+);
 
-export default NoPassword
+export default NoPassword;

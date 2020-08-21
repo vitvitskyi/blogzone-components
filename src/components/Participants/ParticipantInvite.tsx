@@ -5,7 +5,7 @@ import Close from '../../svgs/Close';
 
 export const ParticipantInvite: FC<{}> = () => {
   return (
-    <div className="py-3 border border-gray-300">
+    <div className="py-8 border border-gray-300 bg-white">
       <div className="px-3 flex justify-between ">
         <h4 className="tracking-wider text-gray-700 text-lg">Participants</h4>
         <Close />

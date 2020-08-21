@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 
 const PlayCircleOutline = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -21,6 +21,6 @@ const PlayCircleOutline = (props: React.SVGProps<SVGSVGElement>) => (
       />
     </g>
   </svg>
-)
+);
 
-export default PlayCircleOutline
+export default PlayCircleOutline;

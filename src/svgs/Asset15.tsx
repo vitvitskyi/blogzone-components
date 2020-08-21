@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 
 const Asset15 = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -39,6 +39,6 @@ const Asset15 = (props: React.SVGProps<SVGSVGElement>) => (
       />
     </g>
   </svg>
-)
+);
 
-export default Asset15
+export default Asset15;

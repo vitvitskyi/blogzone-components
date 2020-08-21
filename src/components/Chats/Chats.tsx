@@ -10,7 +10,7 @@ export const Chats: FC<{}> = () => {
         <SidebarHeader title="Chats" />
       </div>
 
-      {[1, 2, 3, 4, 5].map(index => (
+      {[1, 2, 3, 4, 5, 6, 7, 8].map(index => (
         <ChatsItem key={index} name={'John Doe'} />
       ))}
     </div>

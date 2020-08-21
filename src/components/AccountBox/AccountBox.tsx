@@ -14,7 +14,7 @@ type AccountBoxProps = {
 
 export const AccountBox: FC<AccountBoxProps> = ({ name }) => {
   return (
-    <div className="bg-white m-auto w-1/4 p-4 shadow-2xl rounded-lg">
+    <div className="bg-white m-auto py-3 px-4">
       <div className="flex justify-end">
         <BoxMenu className="mr-3" />
         <Settings />

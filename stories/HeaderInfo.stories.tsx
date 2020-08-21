@@ -8,8 +8,10 @@ export default {
 
 export const Default = () => {
     return (
-        <div className='p-8 bg-gray-300 h-screen '>
-            <HeaderInfo/>
+        <div className='pt-32 bg-gray-300 h-screen'>
+            <div className='w-8/12 m-auto'>
+                <HeaderInfo/>
+            </div>
         </div>
-    )
+    );
 };
