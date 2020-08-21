@@ -24,7 +24,6 @@ export const Layout: FC<{}> = () => {
           <div className="ml-2">
             <AccountBox name="Adam Lee" />
           </div>
-
           <div className="mt-4">
             <Participants />
           </div>

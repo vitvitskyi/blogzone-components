@@ -14,7 +14,7 @@ export const IdCallUser: FC<IdCallUser> = ({ name }) => {
   return (
     <div
       style={{ backgroundColor: '#009ace' }}
-      className="flex justify-between items-center rounded px-4 py-4 w-11/12"
+      className="flex justify-between items-center rounded-lg px-4 py-4 w-11/12"
     >
       <Lock />
       <span className="text-white">{name}</span>

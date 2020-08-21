@@ -13,8 +13,8 @@ export default {
 
 export const Default = () => {
     return (
-        <div className='h-screen flex align-center justify-center bg-gray-300'>
-            <div className='w-2/12 mt-32'>
+        <div className='h-screen flex align-center pt-2 justify-center bg-gray-300'>
+            <div className='w-2/12'>
                 <Participants />
             </div>
         </div>
@@ -42,7 +42,7 @@ export const InviteList = () => {
     ];
     return (
         <div className='pt-32 h-screen bg-gray-300'>
-            <div className='w-4/12 m-auto'>
+            <div className='w-2/12 m-auto'>
                 <ParticipantList data={data}/>
             </div>
         </div>

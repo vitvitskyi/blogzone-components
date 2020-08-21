@@ -16,8 +16,15 @@ export const AccountBox: FC<AccountBoxProps> = ({ name }) => {
   return (
     <div className="bg-white m-auto py-3 px-4">
       <div className="flex justify-end">
-        <BoxMenu className="mr-3" />
-        <Settings />
+        <button
+          className="mr-3 focus:outline-none"
+          onClick={() => alert('Menu')}
+        >
+          <BoxMenu />
+        </button>
+        <button className="focus:outline-none" onClick={() => alert('')}>
+          <Settings />
+        </button>
       </div>
       {/*need dynamic image, this for example */}
       <img
