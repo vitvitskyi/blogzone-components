@@ -1,19 +1,21 @@
 import React, { FC } from 'react';
 
 //custom component
-import { UserInfo } from '../HeaderInfo/UserInfo';
+// import { UserInfo } from '../HeaderInfo/UserInfo';
+import { HeaderInfo } from '../HeaderInfo';
 import { MessagesList } from './MessagesList';
+import { MessageControls } from './MessageControls';
 
 export const Chat: FC<{}> = () => {
-  const data: Array<Object> = [
-    {
-      number: '0002',
-      gender: 'Mrs',
-      name: 'King',
-      address: '10 Main St',
-      date: '01-01-70',
-    },
-  ];
+  // const data: Array<Object> = [
+  //   {
+  //     number: '0002',
+  //     gender: 'Mrs',
+  //     name: 'King',
+  //     address: '10 Main St',
+  //     date: '01-01-70',
+  //   },
+  // ];
   const messages: any = [
     {
       date: 'Tuesday dec 17th 2020',
@@ -51,14 +53,16 @@ export const Chat: FC<{}> = () => {
     },
   ];
   return (
-    <>
-      <UserInfo data={data} />
-      <div className="mt-12 mb-4">
+    <div className="bg-white">
+      {/*<UserInfo data={data} />*/}
+      <HeaderInfo />
+      <div className="mt-12 mx-8 mb-4">
         {messages.map((msg: { data: any; date: string }, index: number) => (
           <MessagesList data={msg.data} key={index} day={msg.date} />
         ))}
       </div>
       <hr />
-    </>
+      <MessageControls />
+    </div>
   );
 };

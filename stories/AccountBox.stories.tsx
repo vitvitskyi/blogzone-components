@@ -9,8 +9,10 @@ export default {
 
 export const Default = () => {
     return (
-        <div className='h-screen flex align-center'>
-            <AccountBox name={'John Doe'}/>
+        <div className='h-screen flex justify-center items-center  bg-gray-300'>
+            <div className='w-3/12'>
+                <AccountBox name={'John Doe'}/>
+            </div>
         </div>
       )
 }

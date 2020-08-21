@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 
 const Phone = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -26,6 +26,6 @@ const Phone = (props: React.SVGProps<SVGSVGElement>) => (
       />
     </g>
   </svg>
-)
+);
 
-export default Phone
+export default Phone;

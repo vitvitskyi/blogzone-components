@@ -7,7 +7,7 @@ type ParticipantItem = {
 
 export const ParticipantItem: FC<ParticipantItem> = ({ name, status }) => {
   return (
-    <div className="flex mb-2">
+    <div className="flex mb-6">
       <img
         src={require('../../../public/images/default_image.png')}
         className="h-8 w-8"

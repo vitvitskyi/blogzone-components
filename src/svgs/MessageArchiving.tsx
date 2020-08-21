@@ -1,6 +1,6 @@
-import * as React from 'react'
+import * as React from 'react';
 
-const MessegeArchiving = (props: React.SVGProps<SVGSVGElement>) => (
+const MessageArchiving = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     {...props}
     xmlns="http://www.w3.org/2000/svg"
@@ -21,6 +21,6 @@ const MessegeArchiving = (props: React.SVGProps<SVGSVGElement>) => (
       />
     </g>
   </svg>
-)
+);
 
-export default MessegeArchiving
+export default MessageArchiving;

@@ -17,7 +17,7 @@ const iconList = [
   'Lock',
   'LockTwo',
   'Menu',
-  'MessegeArchiving',
+  'MessageArchiving',
   'Mood',
   'MoodBad',
   'NoPassword',

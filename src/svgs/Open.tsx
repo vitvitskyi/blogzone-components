@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 
 const Open = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -30,6 +30,6 @@ const Open = (props: React.SVGProps<SVGSVGElement>) => (
       </g>
     </g>
   </svg>
-)
+);
 
-export default Open
+export default Open;

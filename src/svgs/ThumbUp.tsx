@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 
 const ThumbUp = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -21,6 +21,6 @@ const ThumbUp = (props: React.SVGProps<SVGSVGElement>) => (
       />
     </g>
   </svg>
-)
+);
 
-export default ThumbUp
+export default ThumbUp;
