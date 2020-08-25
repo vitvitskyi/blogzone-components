@@ -3,6 +3,7 @@ import React from 'react'
 //custom components
 import {Sidebar} from '../src/components/Sidebar'
 import {IdCallUser} from "../src/components/IdCall/IdCallUser";
+import {IdCallInfo} from '../src/components/IdCall/IdCallInfo';
 import {Chats} from '../src/components/Chats'
 
 export default {
@@ -25,12 +26,27 @@ export const IdCallUserComponent = () => {
     return (
         <div className='h-screen pt-32 bg-gray-300'>
             <div className='w-3/6 m-auto'>
-                <IdCallUser name='John Doe'/>
+                <IdCallUser colorText={'#fff'}
+                            svgColor1={'#fff'}
+                            svgColor2={'#fff'}
+                            svgColor3={'#fff'}
+                            backgroundColor={'#009ace'}
+                            name='John Doe'
+                            isArrowBack={false}
+                />
             </div>
 
         </div>
     )
 };
+export const IdCallInfoComponent = () => {
+    return (
+        <div className='w-3/6 m-auto pt-32'>
+            <IdCallInfo/>
+        </div>
+    )
+};
+
 export const ChatsSidebar = () => {
     return (
         <div className='h-screen bg-gray-300 pt-32'>

@@ -17,7 +17,10 @@ export const MessageControls: FC<{}> = () => {
         <span className="text-gray-700 text-xs">
           This groupchat is not anonymous
         </span>
-        <button className="text-white rounded bg-green-300 px-2 py-1 text-sm focus:outline-none hover:bg-green-500">
+        <button
+          className="text-white rounded bg-green-300 px-2 py-1 text-sm focus:outline-none hover:bg-green-500"
+          onClick={() => alert('sended!')}
+        >
           Send
         </button>
       </div>

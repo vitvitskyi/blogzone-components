@@ -14,7 +14,7 @@ export const HeaderInfo: FC<{}> = () => {
     },
   ];
   return (
-    <div className="p-0 lg:p-4 flex bg-white md:pt-12">
+    <div className="p-0 lg:p-4 flex items-center bg-white">
       <div className="w-full  lg:w-11/12">
         <UserInfo data={data} />
       </div>
