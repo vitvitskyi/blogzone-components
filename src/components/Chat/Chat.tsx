@@ -5,6 +5,7 @@ import React, { FC } from 'react';
 import { HeaderInfo } from '../HeaderInfo';
 import { MessagesList } from './MessagesList';
 import { MessageControls } from './MessageControls';
+import { IdCallUser } from '../IdCall/IdCallUser';
 
 export const Chat: FC<{}> = () => {
   // const data: Array<Object> = [
@@ -53,8 +54,20 @@ export const Chat: FC<{}> = () => {
     },
   ];
   return (
-    <div className="bg-gray-300 lg:bg-white">
+    <div className="bg-gray-300 lg:bg-white py-4 px-4 lg:py-0 lg:px-0">
       {/*<UserInfo data={data} />*/}
+      <div className="block lg:hidden">
+        <IdCallUser
+          isArrowBack={true}
+          svgColor1={'#434445'}
+          svgColor2={'#434445'}
+          svgColor3={'#434445'}
+          colorText={'#434445'}
+          backgroundColor={'#e2e8f0'}
+          name={'John Doe'}
+        />
+      </div>
+
       <HeaderInfo />
       <div className="mt-12 mx-8 mb-4">
         {messages.map((msg: { data: any; date: string }, index: number) => (

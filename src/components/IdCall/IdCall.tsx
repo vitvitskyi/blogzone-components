@@ -7,7 +7,7 @@ export const IdCall: FC<{}> = () => {
     <div className="mb-2">
       <div className="flex justify-center pb-2 mt-3">
         <IdCallUser
-          isArrowBacK={false}
+          isArrowBack={false}
           svgColor1={'#fff'}
           svgColor2={'#fff'}
           svgColor3={'#fff'}

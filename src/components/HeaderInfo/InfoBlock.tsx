@@ -56,7 +56,7 @@ export const InfoBlock: FC<InfoBlockProps> = ({
         <Lock />
       </div>
       {isOpen || call ? (
-        <table className="w-full">
+        <table className="w-full border-t">
           <tr className="border-b">
             <td className="py-2 pl-1 text-gray-600">NR</td>
             <td>{number}</td>
