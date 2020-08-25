@@ -53,7 +53,7 @@ export const Chat: FC<{}> = () => {
     },
   ];
   return (
-    <div className="bg-white">
+    <div className="bg-gray-300 lg:bg-white">
       {/*<UserInfo data={data} />*/}
       <HeaderInfo />
       <div className="mt-12 mx-8 mb-4">

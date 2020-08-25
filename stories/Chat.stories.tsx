@@ -8,7 +8,7 @@ export default {
 
 export const Default = () => {
     return (
-        <div className='p-8 h-screen bg-gray-300'>
+        <div className='p-8 h-screen bg-white lg:bg-gray-300'>
             <div className='w-6/12 m-auto'>
                 <Chat/>
             </div>

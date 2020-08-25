@@ -21,8 +21,8 @@ export const Message: FC<MessageProps> = ({ message, username, time, me }) => {
         <span
           className={
             me
-              ? 'bg-blue-600 p-2 rounded text-white text-sm'
-              : 'border border-green-400 p-2 rounded text-sm'
+              ? 'bg-blue-600 px-2 py-2 mb-2 rounded text-white text-sm flex'
+              : 'border border-green-400 px-2 py-2 rounded text-sm flex'
           }
         >
           {message}

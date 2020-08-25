@@ -14,13 +14,16 @@ export const Layout: FC<{}> = () => {
         <div className="w-3/12">
           <Sidebar />
         </div>
-        <div className="w-8/12">
+        <div className="block lg:hidden w-full">
+          <AccountBox name="Adam Lee" />
+        </div>
+        <div className="hidden lg:w-8/12 lg:block">
           <HeaderInfo />
-          <div className="mt-4">
+          <div className="hidden lg:block mt-4">
             <Chat />
           </div>
         </div>
-        <div className="w-2/12">
+        <div className="hidden lg:w-2/12 lg:block">
           <div className="ml-2">
             <AccountBox name="Adam Lee" />
           </div>
