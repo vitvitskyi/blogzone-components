@@ -15,6 +15,8 @@ module.exports = {
       ls_lightGray: '#636262',
       ls_darkText: '#6d6d6d',
       ls_link_bg: '#444444',
+      ls_mainBlue:'#0086b4',
+      ls_secondary: '#009ace',
 
       transparent: 'transparent',
       black: '#000',
@@ -150,11 +152,13 @@ module.exports = {
     fill: {
       current: 'currentColor',
       ls_primary: '#ff8a00',
+      ls_main_blue:'#0086b4',
       white: '#fff',
     },
     stroke: {
       current: 'currentColor',
       ls_primary: '#ff8a00',
+      ls_main_blue:'#0086b4',
       star_outline: '#9a9a9a;',
       white: '#fff',
     },
@@ -215,6 +219,7 @@ module.exports = {
     extend: {
       colors: {
         ls_primary: '#ff8a00',
+        ls_main_blue:'#0086b4',
         ls_bkg: '#000',
         ls_text: '#aaa',
         ls_container: '#212121',

@@ -3,9 +3,13 @@ import React, { FC } from 'react';
 // custom components
 import { ParticipantItem } from './ParticipantItem';
 
+//types
+import { ParticipantData } from 'types/common';
+
 type ParticipantListProps = {
-  data: any;
+  data: Array<ParticipantData>;
 };
+
 export const ParticipantList: FC<ParticipantListProps> = ({ data }) => {
   return (
     <div className="p-5 border border-gray-300 flex flex-col justify-center bg-white">

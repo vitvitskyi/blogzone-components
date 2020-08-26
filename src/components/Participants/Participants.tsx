@@ -1,19 +1,16 @@
-import React, { FC } from 'react';
+import React from 'react';
 
 //custom components
 import { ParticipantInvite } from './ParticipantInvite';
 import { ParticipantList } from './ParticipantList';
 import { ParticipantInfo } from './ParticipantInfo';
+import { ParticipantData } from 'types/common';
 
-export const Participants: FC<{}> = () => {
-  const data: Array<Object> = [
-    { name: 'user1', status: 'owner | moderator' },
-    { name: 'user2', status: 'moderator' },
-    { name: 'user3', status: 'moderator' },
-    { name: 'user4', status: 'moderator' },
-    { name: 'user5', status: 'moderator' },
-    { name: 'user6', status: 'moderator' },
-  ];
+type ParticipantProps = {
+  data: Array<ParticipantData>;
+};
+
+export const Participants = ({ data }: ParticipantProps) => {
   return (
     <div className="m-auto">
       <ParticipantInvite />

@@ -1,5 +1,8 @@
 import React from "react";
 
+//types
+import {ParticipantData} from '../src/types/common'
+
 //custom components
 import {Participants} from "../src/components/Participants";
 import {ParticipantInvite} from '../src/components/Participants/ParticipantInvite';
@@ -11,11 +14,20 @@ export default {
     component: Participants,
 };
 
+const data: Array<ParticipantData> = [
+    { id: '1', name: 'user1', status: 'owner | moderator' },
+    { id: '2', name: 'user2', status: 'moderator' },
+    { id: '3', name: 'user3', status: 'moderator' },
+    { id: '4', name: 'user4', status: 'moderator' },
+    { id: '5', name: 'user5', status: 'moderator' },
+    { id: '6',  name: 'user6', status: 'moderator' },
+]
+
 export const Default = () => {
     return (
         <div className='h-screen flex align-center pt-2 justify-center bg-gray-300'>
             <div className='w-2/12'>
-                <Participants />
+                <Participants data={data} />
             </div>
         </div>
     );

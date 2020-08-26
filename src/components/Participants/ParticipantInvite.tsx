@@ -1,5 +1,8 @@
 import React, { FC } from 'react';
 
+//custom components
+import { Button } from '../Button';
+
 //img
 import Close from '../../svgs/Close';
 
@@ -13,12 +16,14 @@ export const ParticipantInvite: FC<{}> = () => {
         </button>
       </div>
       <div className="px-4 mt-3">
-        <button
-          onClick={() => alert('invite')}
-          className="rounded bg-green-300 py-1 w-5/6 uppercase text-white text-xs hover:bg-green-400 focus:outline-none"
-        >
-          Invite
-        </button>
+        <Button
+          backgroundColor="bg-green-300"
+          rounded={4}
+          title="invite"
+          width="w-5/6"
+          height="h-8"
+          hover="bg-green-400"
+        />
       </div>
     </div>
   );
