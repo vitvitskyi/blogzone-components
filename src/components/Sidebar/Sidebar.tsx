@@ -8,8 +8,8 @@ import { FooterSidebar } from '../Footer/FooterSidebar';
 
 export const Sidebar: FC<{}> = () => {
   return (
-    <>
-      <div className=" m-auto rounded" style={{ backgroundColor: '#0086b4' }}>
+    <div className="hidden lg:block">
+      <div className="m-auto rounded" style={{ backgroundColor: '#0086b4' }}>
         <div className="px-3 py-2">
           <SidebarHeader title={'id call'} />
         </div>
@@ -23,6 +23,6 @@ export const Sidebar: FC<{}> = () => {
       <div className="mt-3  m-auto">
         <FooterSidebar />
       </div>
-    </>
+    </div>
   );
 };

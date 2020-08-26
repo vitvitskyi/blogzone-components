@@ -1,5 +1,6 @@
-import React, { FC } from 'react';
+import React, { FC, CSSProperties } from 'react';
 
+//svgs
 import Lock from '../../svgs/Lock';
 import BookmarkBorder from '../../svgs/BookmarkBorder';
 import Arrow from '../../svgs/Arrow';
@@ -9,10 +10,12 @@ type ChatsItemProps = {
   name: string;
 };
 
+const styles: CSSProperties = { backgroundColor: '#009ace' };
+
 export const ChatsItem: FC<ChatsItemProps> = ({ name }) => {
   return (
     <div
-      style={{ backgroundColor: '#009ace' }}
+      style={styles}
       className="flex justify-between items-center rounded px-4 py-4  mb-3"
     >
       <Lock />

@@ -1,13 +1,13 @@
-import React, { FC } from 'react';
+import React from 'react';
 
 type MessageProps = {
   message: string;
   time: string;
-  username: string;
+  username?: string;
   me: boolean;
 };
 
-export const Message: FC<MessageProps> = ({ message, username, time, me }) => {
+export const Message = ({ message, username, time, me }: MessageProps) => {
   return (
     <div>
       <div className={me ? 'flex justify-end mb-2' : 'flex'}>
@@ -21,8 +21,8 @@ export const Message: FC<MessageProps> = ({ message, username, time, me }) => {
         <span
           className={
             me
-              ? 'bg-blue-600 p-2 rounded text-white text-sm'
-              : 'border border-green-400 p-2 rounded text-sm'
+              ? 'bg-blue-600 px-2 py-2 mb-2 rounded text-white text-sm flex'
+              : 'bg-white border border-blue-400 px-2 py-2 rounded text-sm flex'
           }
         >
           {message}
