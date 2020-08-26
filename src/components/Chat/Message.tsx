@@ -1,11 +1,5 @@
 import React from 'react';
-
-type MessageProps = {
-  message: string;
-  time: string;
-  username?: string;
-  me: boolean;
-};
+import { MessageProps } from 'types/common';
 
 export const Message = ({ message, username, time, me }: MessageProps) => {
   return (

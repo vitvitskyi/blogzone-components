@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
 
 export const Colors: FC<{}> = () => {
-  return <></>;
+  return <div>colors</div>;
 };

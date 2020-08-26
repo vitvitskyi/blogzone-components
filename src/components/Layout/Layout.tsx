@@ -7,6 +7,18 @@ import { AccountBox } from '../AccountBox';
 import { Participants } from '../Participants';
 import { HeaderInfo } from '../HeaderInfo';
 
+//types
+import { ParticipantData } from 'types/common';
+
+const data: Array<ParticipantData> = [
+  { id: '1', name: 'user1', status: 'owner | moderator' },
+  { id: '2', name: 'user2', status: 'moderator' },
+  { id: '3', name: 'user3', status: 'moderator' },
+  { id: '4', name: 'user4', status: 'moderator' },
+  { id: '5', name: 'user5', status: 'moderator' },
+  { id: '6', name: 'user6', status: 'moderator' },
+];
+
 export const Layout: FC<{}> = () => {
   return (
     <div className="p-8 bg-gray-300">
@@ -28,7 +40,7 @@ export const Layout: FC<{}> = () => {
             <AccountBox name="Adam Lee" />
           </div>
           <div className="mt-4">
-            <Participants />
+            <Participants data={data} />
           </div>
         </div>
       </div>

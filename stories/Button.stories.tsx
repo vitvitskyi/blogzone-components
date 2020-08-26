@@ -1,9 +1,11 @@
 import React from 'react';
 
+//custom
 import {Button} from '../src/components/Button'
+import {Fonts} from '../src/components/Styles';
 
 export default {
-    title: 'Components',
+    title: 'Styles Components',
     component: Button,
 };
 
@@ -15,9 +17,9 @@ export const Buttons = () => {
                 <Button
                     backgroundColor='bg-red-600'
                     rounded={8}
-                    width={60}
+                    width='w-16'
                     textSize='text-xs'
-                    height={40}
+                    height='h-8'
                     textColor='text-white'
                     title='Small'
                     hover='bg-red-800'
@@ -33,8 +35,8 @@ export const Buttons = () => {
             <div className='ml-6'>
                 <p>Large</p>
                 <Button
-                    height={60}
-                    width={140}
+                    height='h-12'
+                    width={'w-40'}
                     rounded={12}
                     backgroundColor='bg-green-600'
                     hover='bg-green-500'
@@ -45,12 +47,21 @@ export const Buttons = () => {
                 <p>Disabled</p>
                 <Button
                     disabled
-                    height={40}
-                    width={120}
                     rounded={4}
-                    title='Large'
+                    title='disabled'
                 />
             </div>
+        </div>
+    );
+};
+
+export const FontSize = () => {
+    return (
+        <div className='pt-32'>
+            <div className='w-3/6 m-auto'>
+                <Fonts/>
+            </div>
+
         </div>
     );
 };
