@@ -1,13 +1,13 @@
-import React, { FC } from 'react';
+import React from 'react';
 
 type MessageProps = {
   message: string;
   time: string;
-  username: string;
+  username?: string;
   me: boolean;
 };
 
-export const Message: FC<MessageProps> = ({ message, username, time, me }) => {
+export const Message = ({ message, username, time, me }: MessageProps) => {
   return (
     <div>
       <div className={me ? 'flex justify-end mb-2' : 'flex'}>

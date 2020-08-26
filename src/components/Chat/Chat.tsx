@@ -7,17 +7,20 @@ import { MessagesList } from './MessagesList';
 import { MessageControls } from './MessageControls';
 import { IdCallUser } from '../IdCall/IdCallUser';
 
+type Data = {
+  username?: string;
+  message: string;
+  time: string;
+  me: boolean;
+};
+
+type Messages = {
+  date: string;
+  data: Array<Data>;
+};
+
 export const Chat: FC<{}> = () => {
-  // const data: Array<Object> = [
-  //   {
-  //     number: '0002',
-  //     gender: 'Mrs',
-  //     name: 'King',
-  //     address: '10 Main St',
-  //     date: '01-01-70',
-  //   },
-  // ];
-  const messages: any = [
+  const messages: Array<Messages> = [
     {
       date: 'Tuesday dec 17th 2020',
       data: [
@@ -70,7 +73,7 @@ export const Chat: FC<{}> = () => {
 
       <HeaderInfo />
       <div className="mt-12 mx-8 mb-4">
-        {messages.map((msg: { data: any; date: string }, index: number) => (
+        {messages.map((msg, index) => (
           <MessagesList data={msg.data} key={index} day={msg.date} />
         ))}
       </div>

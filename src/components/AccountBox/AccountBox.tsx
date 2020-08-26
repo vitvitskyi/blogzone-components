@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React from 'react';
 
 //img
 import BoxMenu from '../../svgs/BoxMenu';
@@ -12,7 +12,7 @@ type AccountBoxProps = {
   name: string;
 };
 
-export const AccountBox: FC<AccountBoxProps> = ({ name }) => {
+export const AccountBox = ({ name }: AccountBoxProps) => {
   return (
     <div className="" style={{ backgroundColor: '#f1f5f7' }}>
       <div className="lg:bg-white py-5 px-4 flex flex-row-reverse justify-between items-center lg:items-start">
