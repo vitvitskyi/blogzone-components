@@ -8,6 +8,7 @@ export type ButtonProps = {
   textSize?: string;
   rounded?: number;
   hover?: string;
+  margin?: string;
   disabled?: boolean;
   [x: string]: any;
 };
@@ -28,6 +29,11 @@ export type InputProps = {
   inputTextColor?: string;
   backgroundColor?: string;
   disabled?: boolean;
+  helpText?: string;
+  helpTextStyles?: string;
+  margin?: string;
+  inputTextSize?: string;
+  inputTextWeight?: string;
   [x: string]: any;
 };
 
@@ -42,6 +48,14 @@ export type ChatData = {
   message: string;
   time: string;
   me: boolean;
+};
+
+export type ProfileData = {
+  fullName: string;
+  nickName: string | number;
+  url: string;
+  email: string;
+  role: string;
 };
 
 export type MessageProps = {
