@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
 //custom components
-import { Button } from '../Button';
+import { Button } from '../../elements/Button';
 
 //img
 import Close from '../../svgs/Close';

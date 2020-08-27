@@ -1,7 +1,7 @@
 import React from 'react';
 
 //custom
-import {Button} from '../src/components/Button'
+import {Button} from '../src/elements/Button'
 import {Fonts} from '../src/components/Styles';
 import {Input} from '../src/elements/Input'
 
