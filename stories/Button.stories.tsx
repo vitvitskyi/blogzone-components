@@ -3,6 +3,7 @@ import React from 'react';
 //custom
 import {Button} from '../src/components/Button'
 import {Fonts} from '../src/components/Styles';
+import {Input} from '../src/elements/Input'
 
 export default {
     title: 'Styles Components',
@@ -29,7 +30,7 @@ export const Buttons = () => {
                 <p>Default button</p>
                 <Button
                     backgroundColor='bg-ls_primary'
-                    hover='bg-orange-800'
+                    hover='bg-yellow-600'
                     onClick={()=>alert('It is a default button!')}/>
             </div>
             <div className='ml-6'>
@@ -65,3 +66,34 @@ export const FontSize = () => {
         </div>
     );
 };
+
+export const Inputs = () => {
+    return (
+        <div className='w-2/6 pt-32 m-auto'>
+            <div>
+                <Input
+                    type='text'
+                    placeholder='default...'
+                />
+            </div>
+          <div className='mt-4'>
+              <Input
+                  type='text'
+                  disabled
+                  placeholder='Disabled...'
+                  labelColor='text-gray-600'
+                  label='Disabled Input'
+              />
+          </div>
+         <div className='mt-4'>
+             <Input
+                 type='text'
+                 label='Colors Input'
+                 labelColor='text-green-400'
+                 placeholder='colors...'
+                 inputTextColor='text-red-500'
+             />
+         </div>
+        </div>
+    )
+}
