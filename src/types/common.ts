@@ -12,6 +12,25 @@ export type ButtonProps = {
   [x: string]: any;
 };
 
+export type InputProps = {
+  type: string;
+  label?: string;
+  labelColor?: string;
+  labelSize?: string;
+  labelFont?: string;
+  labelWeight?: string;
+  width?: string;
+  height?: string;
+  borderWidth?: string;
+  borderColor?: string;
+  borderRadius?: string;
+  placeholder?: string;
+  inputTextColor?: string;
+  backgroundColor?: string;
+  disabled?: boolean;
+  [x: string]: any;
+};
+
 export type ParticipantData = {
   id: string;
   name: string;
