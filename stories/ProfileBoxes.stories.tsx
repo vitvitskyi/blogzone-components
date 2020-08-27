@@ -21,8 +21,8 @@ const data:ProfileData = {
 
 export const All = () => {
     return (
-        <div className='m-auto w-4/12'>
-            <ProfileBoxes data={data}/>
+        <div className='m-auto w-3/12 pt-24'>
+                <ProfileBoxes data={data}/>
         </div>
     )
 };

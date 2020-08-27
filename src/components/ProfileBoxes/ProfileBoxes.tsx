@@ -4,6 +4,9 @@ import React, { FC, useState, useEffect, FormEvent, ChangeEvent } from 'react';
 import { ProfileData } from '../../types/common';
 
 //custom components
+import { FileUploader } from './FileUploader';
+
+//custom elements
 import { Input } from '../../elements/Input';
 import { Button } from '../../elements/Button';
 
@@ -60,6 +63,15 @@ export const ProfileBoxes: FC<ProfileBoxesProps> = ({ data }) => {
         </button>
       </div>
       <hr />
+      <div className="flex ml-6 py-4">
+        <FileUploader />
+        <div className="ml-4 mt-2">
+          <span className="text-md text-gray-800">XMPP Address (JID):</span>
+          <p className="text-sm text-gray-600 mt-2">
+            5620@bloqzone.goodbytes.im
+          </p>
+        </div>
+      </div>
       <form className="px-6" onSubmit={handleSubmit}>
         <Input
           type="text"
